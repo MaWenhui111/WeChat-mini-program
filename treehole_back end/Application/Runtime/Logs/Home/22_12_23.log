@@ -1,0 +1,94 @@
+[ 2022-12-23T02:11:05+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15126823671' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1406:Data too long for column 'face_url' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202103%2F31%2F20210331160001_9a852.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674324642&t=f06d9c247ddd6c6027bd6f5d17e29979')
+ERR: 1406:Data too long for column 'face_url' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202103%2F31%2F20210331160001_9a852.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674324642&t=f06d9c247ddd6c6027bd6f5d17e29979')
+
+[ 2022-12-23T02:12:13+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15126823671' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1406:Data too long for column 'face_url' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202103%2F31%2F20210331160001_9a852.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674324642&t=f06d9c247ddd6c6027bd6f5d17e29979')
+ERR: 1406:Data too long for column 'face_url' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202103%2F31%2F20210331160001_9a852.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674324642&t=f06d9c247ddd6c6027bd6f5d17e29979')
+
+[ 2022-12-23T02:12:31+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15126823671' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1406:Data too long for column 'face_url' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202103%2F31%2F20210331160001_9a852.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674324642&t=f06d9c247ddd6c6027bd6f5d17e29979')
+ERR: 1406:Data too long for column 'face_url' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202103%2F31%2F20210331160001_9a852.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674324642&t=f06d9c247ddd6c6027bd6f5d17e29979')
+
+[ 2022-12-23T02:13:11+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15126823671' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张三','15126823671','827ccb0eea8a706c4c34a16891f84e7b','https://gimg2.baidu.com/image_search/src=http%3A') [ RunTime:0.0020s ]
+
+[ 2022-12-23T02:15:23+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '1782681307' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('姚五','1782681307','81b073de9370ea873f548e31b8adc081','https://gimg2.baidu.com/image_search2') [ RunTime:0.0087s ]
+
+[ 2022-12-23T04:07:59+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15132833690' LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('胡得','15132833690','81b073de9370ea873f548e31b8adc081','https://gimg2.baidu.com/image_search4') [ RunTime:0.0018s ]
+
+[ 2022-12-23T04:08:18+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+
+[ 2022-12-23T04:08:27+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15132833611' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('更好','15132833611','81b073de9370ea873f548e31b8adc081','https://gimg2.baidu.com/image_search4') [ RunTime:0.0016s ]
+

@@ -1,0 +1,22 @@
+[ 2022-04-26T00:09:18+08:00 ] ::1 /treehole/index.php/Home/Message/do_like
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `square` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `square` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `square` SET `total_likes`='1' WHERE `id` = 1 [ RunTime:0.0095s ]
+
+[ 2022-04-26T00:09:54+08:00 ] ::1 /treehole/index.php/Home/Message/do_like
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `square` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `square` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `square` SET `total_likes`='2' WHERE `id` = 1 [ RunTime:0.0089s ]
+
