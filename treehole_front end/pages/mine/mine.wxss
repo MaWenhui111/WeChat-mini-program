@@ -1,0 +1,133 @@
+/* pages/mine/mine.wxss */
+@import "/pages/bottom_menu/bottom_menu";
+
+page {
+  background-color: #EFEFEF;
+}
+
+.personalInf {
+  width: 100%;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  margin-right: 0rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 15rpx solid #EFEFEF;
+}
+
+.scroll {
+  background-color: #EFEFEF;
+  widows: 100%;
+  left: 0rpx;
+  right: 0rpx;
+  top: 0rpx;
+  bottom: 9%;
+  position: absolute;
+}
+
+.deco {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 50rpx;
+  border-radius: 10rpx;
+  border: 2px solid #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile {
+  margin-top: 10rpx;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.name {
+  margin-top: 40rpx;
+  font-size: 38rpx;
+  color: black;
+  padding-bottom: 40rpx;
+}
+
+.box{
+  background-color: white;
+  width: 100%;
+  padding-top: 20rpx;
+  border-bottom: 15rpx solid #EFEFEF;
+}
+
+.time{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30rpx;
+  flex-direction: row;
+}
+
+.showtime{
+  color: black;
+  font-size: 25rpx;
+  font-family: PingFang SC;
+}
+
+.secondblock{
+  margin-top: 10rpx;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 20rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  border-bottom: 5rpx solid #BBBBBB;
+}
+
+.content{
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  word-break: break-all;
+}
+
+.thirdblock{
+  height: 100rpx;
+  margin-top: 5rpx;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.combination{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.like{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 15rpx;
+}
+
+.like_num{
+  height: 52rpx;
+  line-height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 8rpx;
+  font-size: 35rpx;
+}
+
+.del{
+  margin-top: 18rpx;
+  margin-right: 20rpx;
+  width: 120rpx;
+  height: 62rpx;
+  border-radius: 10rpx;
+  background-color: #54BCBD;
+  font-size: 32rpx;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 60rpx;
+}

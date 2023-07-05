@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<view class="first">
+  <view class="Left">用户名</view>
+  <view class="Right">
+    <input placeholder="请输入用户名" placeholder-class="plas" class="inputs" type="text" bindinput="usernameInput"/>
+  </view>  
+</view>
+<view class="second">
+ <view class="Left">密码</view>
+ <view class="Right">
+   <input placeholder="请输入密码" placeholder-class="plas" class="inputs" type="password" bindinput="passwordInput" />
+ </view>
+</view>
+<view class="click" disabled="{{is_disabled}}" bindtap="login">登 录</view>
+<view class="Last" bindtap="signup">
+  <text class="ziti">还没有帐号，注册</text>
+</view>

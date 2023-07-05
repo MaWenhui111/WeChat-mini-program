@@ -1,0 +1,34 @@
+/* pages/bottom_menu/bottom_menu.wxss */
+
+.bottomrow{
+  width: 100%;
+  height: 9%;
+  position: fixed;
+  bottom: 0rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomside{
+  width: 350rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomtext{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #9A9A9A;
+}
+
+.bottomimg{
+  margin-top: 15rpx;
+  width: 104rpx;
+  height: 90rpx;
+  border-radius: 15rpx;
+}

@@ -1,0 +1,115 @@
+/* pages/square/square.wxss */
+@import "/pages/bottom_menu/bottom_menu";
+
+page{
+  background-color: #EFEFEF;
+}
+
+.scroll{
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 91%;
+  left: 0rpx;
+  right: 0rpx;
+  top:0rpx;
+  position: absolute;
+}
+
+.box{
+  background-color: white;
+  width: 100%;
+  padding-top: 20rpx;
+  border-bottom: 15rpx solid #EFEFEF;
+}
+
+.firstblock{
+  height: 150rpx;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.profile{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 5rpx;
+}
+
+.person{
+  width: 75%;
+  height: 130rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+
+.name{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 6rpx;
+  flex-direction: row;
+}
+
+.showname{
+  color: #215476;
+  font-size: 38rpx;
+  font-family: PingFang SC;
+  font-weight: 560;
+}
+
+.time{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30rpx;
+  flex-direction: row;
+}
+
+.showtime{
+  color: black;
+  font-size: 25rpx;
+  font-family: PingFang SC;
+}
+
+.secondblock{
+  margin-top: 10rpx;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 20rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  border-bottom: 5rpx solid #BBBBBB;
+}
+
+.content{
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  word-break: break-all;
+}
+
+.thirdblock{
+  height: 100rpx;
+  margin-top: 10rpx;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.like{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 13rpx;
+  margin-left: 15rpx;
+}
+
+.like_num{
+  height: 52rpx;
+  line-height: 50rpx;
+  margin-top: 16rpx;
+  margin-left: 8rpx;
+  font-size: 35rpx;
+}
+
+
+

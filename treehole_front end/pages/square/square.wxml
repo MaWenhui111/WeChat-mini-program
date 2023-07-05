@@ -1,0 +1,26 @@
+<!--pages/square/square.wxml-->
+<include src="/pages/bottom_menu/bottom_menu" />
+<scroll-view class="scroll" scroll-y="true">
+  <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+    <view class="box">
+      <view class="firstblock">
+        <image class="profile" src="{{itemName.face_url}}"></image>
+        <view class="person">
+          <view class="name">
+            <text class="showname">{{itemName.username}}</text>
+          </view>
+          <view class="time">
+            <text class="showtime">{{itemName.send_timestamp}}</text>
+          </view>
+        </view>
+      </view>
+      <view class="secondblock">
+        <text class="content">{{itemName.content}}</text>
+      </view>
+      <view class="thirdblock">
+        <image class="like" src="/images/like_before.png"></image>
+        <text class="like_num">{{itemName.total_likes}}</text>
+      </view>
+    </view>
+  </block>
+</scroll-view>
